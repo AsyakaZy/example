@@ -1,0 +1,27 @@
+.match-container {
+    border: 1px solid white; /* Белая рамка */
+    border-radius: 40px;
+    height: 70px;
+    width: 810px;
+    margin-top: 40px;
+    margin-left: 230px;
+    padding: 10px; /* Отступ внутри рамки */
+}
+
+.match-container .navbar {
+    border: none; /* Убираем стандартную рамку у Navbar */
+    background-color: transparent; /* Прозрачный фон Navbar */
+}
+
+.match-container {
+    background-color: rgba(14, 14, 24, 0.3); /* Цвет фона с прозрачностью 20% */
+    border-radius: 40px;
+    margin-bottom: 20px; /* Добавляем отступ между блоками */
+    padding: 20px; /* Добавляем внутренний отступ */
+}
+
+.highlight-text {
+    color: white; /* Белый цвет текста */
+}
+
+

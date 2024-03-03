@@ -1,0 +1,35 @@
+.poster-container {
+    border: 2px solid white; /* Белая рамка */
+    border-radius: 20px;
+    padding: 40px;
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    margin-left: 245px;
+    color: white; /* Белый текст */
+    background-color: transparent;
+}
+
+.club-names h2 {
+    margin: 0;
+}
+
+.quote p {
+    margin: 20px; /* Уменьшаем вертикальный отступ */
+    white-space: pre-line; /* Разрешаем переносы строк */
+}
+
+.buy-ticket-button button {
+    margin-top: -40px;
+    border-radius: 20px; /* Округленные углы */
+    padding: 10px 20px;
+    background-color: transparent; /* Прозрачный фон */
+    color: white;
+    border: 2px solid white; /* Белая рамка */
+    cursor: pointer;
+}
+
+.stadium-name h3 {
+    margin: 20px;
+    padding: 20px;
+}

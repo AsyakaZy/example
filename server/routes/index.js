@@ -1,0 +1,31 @@
+const Router = require('express')
+const router = new Router()
+const matchRouter = require('./matchRouter')
+const newsRouter = require('./newsRouter')
+const userRouter = require('./userRouter')
+const clubRouter = require('../routes/clubRouter')
+const stadiumRouter = require('../routes/stadiumRouter')
+const clubHomeRouter = require('../routes/clubHomeRouter')
+const clubGuestRouter = require('../routes/clubGuestRouter')
+const cityRouter = require('../routes/cityRouter')
+const posterRouter = require('../routes/posterRouter')
+const playersRouter = require('../routes/playersRouter')
+const playersClubHomeRouter = require('../routes/playersClubHomeRouter')
+const playersClubGuestRouter = require('../routes/playersClubGuestRouter')
+
+router.use('/user', userRouter)
+router.use('/match', matchRouter)
+router.use('/news', newsRouter)
+router.use('/club', clubRouter)
+router.use('/clubHome', clubHomeRouter)
+router.use('/clubGuest', clubGuestRouter)
+router.use('/stadium', stadiumRouter)
+router.use('/city', cityRouter)
+router.use('/poster', posterRouter)
+router.use('/players', playersRouter)
+router.use('/playersClubHome', playersClubHomeRouter)
+router.use('/playersClubGuest', playersClubGuestRouter)
+
+
+
+module.exports = router

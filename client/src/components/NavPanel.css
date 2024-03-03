@@ -1,0 +1,29 @@
+.navbar-custom {
+    background-color: transparent !important; /* Прозрачный фон */
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-toggler-icon {
+    color: white !important; /* Белый цвет для ссылок и иконки бургер-меню */
+}
+
+.navbar-custom .navbar-toggler {
+    border-color: white !important; /* Белая рамка для кнопки бургер-меню */
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important; /* Белый цвет для ссылок в выпадающем меню */
+}
+
+.top-line, .bottom-line {
+    margin-top: 30px;
+    height: 0.5px;
+    background-color: white;
+    margin-left: 255px;
+    width: 800px; /* Ширина полоски */
+}
+
+.bottom-line {
+    margin-top: -10px; /* Отступ от компонентов */
+}
+
